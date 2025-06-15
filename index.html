@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مكاتب للإيجار في حي الياسمين | طريق الملك عبد العزيز</title>
+    <!-- Bootstrap RTL CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">مكاتب الياسمين</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">المميزات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#location">الموقع</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">اتصل بنا</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="display-3 fw-bold text-white mb-4">مكاتب للإيجار في حي الياسمين</h1>
+                <p class="lead text-white mb-4">على طريق الملك عبد العزيز - تشطيب فاخر - موقع استراتيجي</p>
+                <a href="#contact" class="btn btn-primary btn-lg">تواصل معنا</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Image Slider Section -->
+    <section class="slider-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">معرض الصور</h2>
+            <div id="officeSlider" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#officeSlider" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#officeSlider" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#officeSlider" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#officeSlider" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#officeSlider" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#officeSlider" data-bs-slide-to="5"></button>
+                </div>
+
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/hero-bg.png" class="d-block w-100" alt="Office View 1">
+                        <div class="carousel-caption">
+                            <h3>تشطيب فاخر</h3>
+                            <p>تصميم عصري وحديث</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider2.png" class="d-block w-100" alt="Office View 2">
+                        <div class="carousel-caption">
+                            <h3>مساحات واسعة</h3>
+                            <p>مكاتب متنوعة المساحات</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider3.png" class="d-block w-100" alt="Office View 3">
+                        <div class="carousel-caption">
+                            <h3>تقسيمة مكاتب متميزة</h3>
+                            <p>مكاتب متنوعة التقسيمات</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider4.png" class="d-block w-100" alt="Office View 4">
+                        <div class="carousel-caption">
+                            <h3>موقع استراتيجي</h3>
+                            <p>سهولة الوصول والمواصلات</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider5.png" class="d-block w-100" alt="Office View 5">
+                        <div class="carousel-caption">
+                            <h3>إطلالات رائعة</h3>
+                            <p>إطلالات رائعة على المدينة</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider6.png" class="d-block w-100" alt="Office View 6">
+                        <div class="carousel-caption">
+                            <h3>أمن وحراسة</h3>
+                            <p>حماية على مدار الساعة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#officeSlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#officeSlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">مميزات الموقع</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-map-marker-alt fa-3x mb-3 text-primary"></i>
+                        <h3>موقع استراتيجي</h3>
+                        <p>موقع مميز على طريق الملك عبد العزيز</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-building fa-3x mb-3 text-primary"></i>
+                        <h3>تشطيب فاخر</h3>
+                        <p>تصميم عصري وتشطيب عالي الجودة</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-parking fa-3x mb-3 text-primary"></i>
+                        <h3>مواقف سيارات</h3>
+                        <p>مواقف خاصة ومتعددة للسيارات</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card text-center">
+                        <i class="fas fa-shield-alt fa-3x mb-3 text-primary"></i>
+                        <h3>أمن 24/7</h3>
+                        <p>حماية وأمان على مدار الساعة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">موقعنا</h2>
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.6504900120997!2d46.646611!3d24.814722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDQ4JzUzLjAiTiA0NsKwMzgnNDcuOCJF!5e0!3m2!1sen!2ssa!4v1620000000000!5m2!1sen!2ssa" 
+                                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="location-info p-4">
+                        <h3 class="mb-4">حي الياسمين - الرياض</h3>
+                        <p class="mb-4">يقع المبنى في موقع استراتيجي على طريق الملك عبد العزيز في حي الياسمين، مما يجعله وجهة مثالية للشركات والمؤسسات.</p>
+                        <ul class="list-unstyled">
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i> قرب من الطرق الرئيسية</li>
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i> سهولة الوصول</li>
+                            <li class="mb-3"><i class="fas fa-check-circle text-primary me-2"></i> خدمات متكاملة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">اتصل بنا</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="contact-cards">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="contact-card text-center p-4">
+                                    <i class="fas fa-phone fa-2x mb-3 text-primary"></i>
+                                    <h4>اتصل الآن</h4>
+                                    <p class="phone-number" dir="ltr">+966 55 850 8687</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-card text-center p-4">
+                                    <i class="fab fa-whatsapp fa-2x mb-3 text-primary"></i>
+                                    <h4>واتساب</h4>
+                                    <p class="phone-number" dir="ltr">+966 53 390 1649</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-card text-center p-4">
+                                    <i class="fas fa-envelope fa-2x mb-3 text-primary"></i>
+                                    <h4>البريد الإلكتروني</h4>
+                                    <p class="email-address" dir="ltr">info@alajdl.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 مكاتب الياسمين. جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html> 
